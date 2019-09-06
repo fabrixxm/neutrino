@@ -141,6 +141,7 @@ fn main() {
     window.set_menubar(menu_bar);
     window.set_listener(Box::new(app_listener));
     window.set_theme(Theme::Default);
-
+    window.set_debug();
+    
     App::run(window);
 }
