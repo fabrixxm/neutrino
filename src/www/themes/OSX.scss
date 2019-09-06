@@ -216,6 +216,7 @@ $checkbox-path: polygon(40% 62%, 74% 17%, 81% 33%, 40% 82%, 17% 58%, 23% 44%);
     height: 32px;
 
     .inner-range {
+        background-color: $tab-background-color;
 
         &::-webkit-slider-runnable-track {
             height: 6px;

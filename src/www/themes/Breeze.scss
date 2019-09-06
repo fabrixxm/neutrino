@@ -193,6 +193,7 @@ $widget-margin: 6px;
     margin: $widget-margin;
 
     .inner-range {
+        background-color: $background-color;
 
         &::-webkit-slider-runnable-track {
             height: 6px;
