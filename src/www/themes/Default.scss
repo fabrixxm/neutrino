@@ -167,6 +167,18 @@ $menubar-height: 30px;
             height: 8px;
             background: black;
         }
+        
+        &::-ms-track {
+            height: 10px;
+            background-color: white;
+            border: 1px solid black;
+        }
+
+        &::-ms-thumb {
+            width: 16px;
+            height: 8px;
+            background: black;
+        }
     }
 }
 
