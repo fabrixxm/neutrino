@@ -184,8 +184,16 @@ body {
             appearance: none;
         }
 
+        &::-ms-thumb {
+            border: none;
+        }
+
         &::-ms-track {
             color: transparent;
+        }
+
+        &::-ms-fill-lower {
+            background: transparent;
         }
     }
 }
