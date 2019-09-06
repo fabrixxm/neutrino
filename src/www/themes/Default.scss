@@ -169,6 +169,7 @@ $menubar-height: 30px;
         }
         
         &::-ms-track {
+            padding: 0;
             color: transparent;
             height: 10px;
             background-color: white;
