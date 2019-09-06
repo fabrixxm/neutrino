@@ -107,7 +107,7 @@ impl App {
             .size(width, height)
             .resizable(resizable)
             .user_data("")
-            .debug(debug)
+            .debug(true)
             .invoke_handler(|webview, arg| {
                 let event: Event = match json::parse(arg) {
                     Ok(value) => match value["type"].as_str().unwrap() {
